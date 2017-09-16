@@ -5,7 +5,8 @@ both "read and write bytes." When the clock signal hits a falling edge (go's to 
 the parameters. When the lcock signal hits a rising edge (go's to logic 1) the device will read the master device (what the pi processes)
 bytes back. For our ADC we give the pi 2 bytes with xfer, and we get 2 bytes back.
 
-**EX of xfer)** 
+**EX of xfer2 usage** 
+
 raw_data = spi.xfer2([2, 4, 120]) #this means we are passing binary values [00000010, 00000100, 1111000]
 #we can then access 3 bytes in this case, raw_data is just an array of the bytes we get back
 print(raw_data[2]) #prints 3rd byte. We have no way of knowing what it is, depends on the device were using!
