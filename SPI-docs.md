@@ -18,6 +18,7 @@ Since we aren't moving our CS (CE0 and CE1) ALWAYS USE XFER2
 TLDR: use xfer2
 
 **MCP3002 ADC**
+
 MCP3002 datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/21294E.pdf
 
 1. Our adc takes/sends 2 bytes (since it only has 2 channels it is more compact than the other mcp adc models which do 3 bytes)
