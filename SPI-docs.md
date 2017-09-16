@@ -3,7 +3,7 @@ SPI for python is already decently documented here: http://tightdev.net/SpiDev_D
 The only 2 that really "matter" for our ADC is xfer and xfer2. By "perform SPI transaction" it basically means that xfer/xfer2
 both "read and write bytes." When the clock signal hits a falling edge (go's to logic 0) the device will write the bytes passed into 
 the parameters. When the lcock signal hits a rising edge (go's to logic 1) the device will read the master device (what the pi processes)
-bytes back. For our ADC we give the pi 2 bytes with xfer, and we get 2 bytes back.
+bytes back. For our ADC we give the pi 2 bytes with xfer, and we get 2 bytes back. 8 bits in a byte.
 
 **EX of xfer2 usage** 
 
