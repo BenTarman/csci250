@@ -7,6 +7,7 @@ RANDOM STUFF BELOW
 https://elearning.mines.edu/courses/6667/files/folder/HeadlessDocs?preview=186464
 
 **Vim**
+
 If your using vim raspberry pi OS often defaults python to python3
 
 To check that python3 is enabled use this command: "vim --version | grep python" and you should see a + sign by python.
